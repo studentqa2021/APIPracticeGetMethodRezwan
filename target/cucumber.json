@@ -1,0 +1,81 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-28T18:12:16.373Z",
+        "line": 4,
+        "name": "As an API user, I want to test Get method.",
+        "description": "",
+        "id": "api-get-method-testing;as-an-api-user--i-want-to-test-get-method.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1865000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "pass the URL",
+            "match": {
+              "location": "com.http.method.cucumber.StepDef.pass_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "valid status code",
+            "match": {
+              "location": "com.http.method.cucumber.StepDef.valid_status_code()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "validate response time",
+            "match": {
+              "location": "com.http.method.cucumber.StepDef.validate_response_time()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "validate time should not be null",
+            "match": {
+              "location": "com.http.method.cucumber.StepDef.validate_time_should_not_be_null()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "validate data format is Json or not",
+            "match": {
+              "location": "com.http.method.cucumber.StepDef.validate_data_format_is_json_or_not()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "API Get method testing",
+    "description": "",
+    "id": "api-get-method-testing",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/APITestingGetMethod.feature",
+    "tags": []
+  }
+]
